@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Laporan extends Model
+{
+    protected $fillable = [
+        'kd_pasien', 'nama_pasien', 'penyakit_diderita', 'penyakit_dialami', 'keterangan'
+    ];
+}
